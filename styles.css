@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "myFont";
+    src: url('./MeaCulpa-Regular.ttf') format('truetype');
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border:0;
+}
+:root{
+        font-family: "myFont", 'Times New Roman', Times, serif;
+        background-color:black;
+        color:white;
+}
+body{
+    display:flex;
+    justify-content: center;
+}
+#container-all{
+    display:flex;
+    width:75vw;
+    height:100vh;
+}
+#left{
+    width:35%;
+    background-image: url(./halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    position:relative;
+}
+#title{ 
+    background-color: transparent;
+    display:flex;
+    align-items: center;
+    font-size: 48px;
+
+}
+#logo-background{
+    display:flex;
+    position:absolute;
+    top:35%;
+    height:75px;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center; 
+}
+#dragonfly{
+    height:100px;
+    width:auto;
+    background-color: transparent;
+}
+#right{
+    background-color: white;
+    width:65%;
+    color: black;
+    display:flex;
+    flex-direction: column;
+}
+.container-allInputs{
+    width: 100%;
+    background-color: beige;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 150px;
+}
+.container-input{
+    margin:25px;
+    display:flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+}
+input {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+}
+button{
+    background-color: green;
+    border-radius: 25px;
+    margin:25px;
+    padding:5px;
+    width:125px;
+}
+
+
